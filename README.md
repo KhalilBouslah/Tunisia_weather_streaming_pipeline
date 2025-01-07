@@ -46,9 +46,9 @@ Run the script to fetch weather data and send it to Kafka:
 
 2. Install Required Spark Packages
 
-Install necessary packages for Spark to connect with Kafka and Cassandra:
+Download necessary packages for  Kafka and Cassandra to connect with Spark:
 
-# Add packages from Maven repository and run spark_stream.py:
+# Run spark_stream.py:
      spark-submit --packages org.apache.spark:spark-streaming-kafka-0-10_2.12:3.5.4,com.datastax.spark:spark-cassandra-connector_2.12:3.5.1 spark_stream.py
 
 Data Storage and Access
@@ -58,13 +58,17 @@ Run Cassandra's interactive shell:
 
     sudo docker exec -it cassandra cqlsh -u cassandra -p cassandra localhost 9042
 
-2. Query Weather Data
+2. Describe keyspace spark_streams:
+
+        Describe spark_streams;
+
+3. Query Weather Data
 
 Check the captured events stored in Cassandra:
 
      SELECT * FROM spark_streams.weather;
 
-3. Export Data to CSV
+4. Export Data to CSV
 
 Export the Cassandra table to a CSV file:
 
