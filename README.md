@@ -99,7 +99,9 @@ Visualization with Grafana
 Outputs
 
   Raw Data: Stored in Cassandra.
+  
   Cleaned Data: Available as clean_data.csv from Transform_data.ipynb for visualization.
+  
   Dashboards: Grafana displays real-time and historical weather data from Tunisian states.
 
 Conclusion
