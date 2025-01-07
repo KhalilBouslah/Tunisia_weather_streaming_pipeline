@@ -2,6 +2,9 @@
 
 Weather Streaming Project
 
+![alt text]([https://github.com/KhalilBouslah/Weather_streaming/Weather_pipeline.png])
+
+
 This project demonstrates a real-time weather data pipeline using the OpenWeather API, Kafka, Apache Spark, Cassandra, and Grafana. The pipeline collects random weather data from Tunisian states, processes it in real-time, stores it in Cassandra, and visualizes it using Grafana.
 Project Overview
 Technologies Used
