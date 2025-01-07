@@ -44,7 +44,7 @@ random_lat_lon=get_random_coordinates()
 # Extract weather data
 def collect_data():
     random_lat_lon = get_random_coordinates()
-    api_key='793f01cfaae4d60a2baadc4829ec7cc7'
+    api_key='793f01cfaae4********'
     url= f'https://api.openweathermap.org/data/2.5/weather?'\
         f'lat={random_lat_lon[0]}&lon={random_lat_lon[1]}'\
             f'&appid={api_key}&units=metric'
