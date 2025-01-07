@@ -24,8 +24,7 @@ Project Setup
 
     Create a new project folder and navigate to it:
 
-mkdir spark_project
-cd spark_project
+       mkdir spark_project && cd spark_project
 
 Create and activate a Python virtual environment:
 
@@ -85,10 +84,10 @@ Visualization with Grafana
 
     docker cp ~/your_path/clean_data.csv grafana:/etc/
 
-    Start Grafana and log in:
-        Default credentials:
-            Username: grafana
-            Password: grafana
+  Start Grafana and log in:
+     Default credentials:
+             Username: grafana
+             Password: grafana
 
   Install the CSV Data Source extension.
 
