@@ -47,12 +47,17 @@ Run the script to fetch weather data and send it to Kafka:
 
     python producer_weather.py
 
+![Python producer](https://github.com/KhalilBouslah/Weather_streaming/blob/main/Openweather_Api_producer.png)    
+
 2. Install Required Spark Packages
 
 Download necessary packages for  Kafka and Cassandra to connect with Spark:
 
 # Run spark_stream.py:
      spark-submit --packages org.apache.spark:spark-streaming-kafka-0-10_2.12:3.5.4,com.datastax.spark:spark-cassandra-connector_2.12:3.5.1 spark_stream.py
+
+![Spark-submit](https://github.com/KhalilBouslah/Weather_streaming/blob/main/spark_submit.png)
+
 
 Data Storage and Access
 1. Access Cassandra
