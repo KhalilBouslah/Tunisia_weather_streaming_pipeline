@@ -70,6 +70,9 @@ Run Cassandra's interactive shell:
 Check the captured events stored in Cassandra:
 
      SELECT * FROM spark_streams.weather;
+![Table weather](https://github.com/KhalilBouslah/Weather_streaming/blob/main/Cassandra_table.png)
+
+     
 
 4. Export Data to CSV
 
