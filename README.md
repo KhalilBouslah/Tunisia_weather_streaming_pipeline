@@ -120,6 +120,4 @@ Outputs
 
 Conclusion
 
-This project highlights the integration of real-time data streaming, distributed storage, and visualization tools to create a scalable and insightful pipeline for weather data.
-
-Feel free to explore the repository and reach out with any questions or suggestions!
+This project highlights the integration of real-time data streaming, distributed storage, and visualization tools to create a scalable and insightful pipeline for Tunisia weather data.
