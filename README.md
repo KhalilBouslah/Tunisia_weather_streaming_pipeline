@@ -2,6 +2,7 @@
 
 Weather Streaming Project
 
+# Architecture Diagram
 ![Tunisia weather streaming pipeline](https://github.com/KhalilBouslah/Weather_streaming/blob/main/Weather_pipeline.png)
 
 
