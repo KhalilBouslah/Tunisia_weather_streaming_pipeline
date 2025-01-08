@@ -117,7 +117,9 @@ Outputs
   
   Cleaned Data: Available as clean_data.csv from Transform_data.ipynb for visualization.
   
-  Dashboards: Grafana displays real-time and historical weather data from Tunisian states.
+  # Dashboards: Grafana displays real-time and historical weather data from Tunisian states.
+  
+  ![Grafana](https://github.com/KhalilBouslah/Tunisia_weather_streaming_pipeline/blob/main/Grafana_Bar_gauge.png)
 
 Conclusion
 
